@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
-import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import featuresdiagonal from "../assets/images/fondo1.jpg";
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-bgDark1">
+    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-bgDark1" id="quienessomos">
       <div className="shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
@@ -36,13 +36,15 @@ export const FeaturesDiagonal = () => {
               Trigo &amp; Miel Queretaro
             </h2>
             <p className="mb-16 text-secondaryText leading-loose">
-              Mauro y Biviana Servín, junto con su hija Débora dirigen los iglesia Trigo y Miel Querétaro y el 
+              <a href="https://www.facebook.com/ServinMauro/" className="text-white"><strong>Mauro</strong></a> y 
+              <a href="https://www.facebook.com/bivianaservin" className="text-white"><strong> Biviana Servín</strong></a>, junto con su hija Débora dirigen los iglesia Trigo y Miel Querétaro y el 
               ministerio Redes Juveniles. Conferencistas en eventos en México y latinoamérica. Autores de libros 
               dirigidos a la juventud. Radican en la ciudad de Querétaro.
             </p>
             <p className="mb-16 text-secondaryText leading-loose">
-            Mauro y Biviana están bajo cobertuda de Trigo y Miel con sede en León, Guanajuato que dirige Felipe 
-            y Angelica del Castillo.
+            Mauro y Biviana están bajo cobertuda de 
+            <a href="https://www.trigoymiel.org/" className="text-white"><strong> Trigo y Miel</strong></a> con sede en León, Guanajuato que dirige 
+            <a href="https://www.facebook.com/FelipeDelC/" className="text-white"><strong> Felipe y Angelica del Castillo.</strong></a>
             </p>
             <button
               className="w-[210px] h-12 contained-button mr-10 "
@@ -56,7 +58,7 @@ export const FeaturesDiagonal = () => {
             <img
               src={featuresdiagonal.src}
               alt="Feature image"
-              className="rounded-xl  main-border-gray"
+              className="rounded-xl object-cover main-border-gray"
             />
           </div>
         </div>
