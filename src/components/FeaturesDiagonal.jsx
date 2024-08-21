@@ -36,9 +36,13 @@ export const FeaturesDiagonal = () => {
               Trigo &amp; Miel Queretaro
             </h2>
             <p className="mb-16 text-secondaryText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+              Mauro y Biviana Servín, junto con su hija Débora dirigen los iglesia Trigo y Miel Querétaro y el 
+              ministerio Redes Juveniles. Conferencistas en eventos en México y latinoamérica. Autores de libros 
+              dirigidos a la juventud. Radican en la ciudad de Querétaro.
+            </p>
+            <p className="mb-16 text-secondaryText leading-loose">
+            Mauro y Biviana están bajo cobertuda de Trigo y Miel con sede en León, Guanajuato que dirige Felipe 
+            y Angelica del Castillo.
             </p>
             <button
               className="w-[210px] h-12 contained-button mr-10 "
