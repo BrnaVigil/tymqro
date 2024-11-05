@@ -6,6 +6,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { FBIcon } from "../assets/icons/FBIcon";
 import { IGIcon } from "../assets/icons/IGIcon";
 import { WhatsAppIcon } from "../assets/icons/WhatsAppIcon";
+import { YTIcon } from "../assets/icons/YTIcon";
 
 export const Features2 = () => (
   <section id="acompañanos" className="w-full bg-bgDark2 pt-24 sm:mt-24 mb-12 lg:my-20 lg:mb-24">
@@ -67,6 +68,7 @@ export const Features2 = () => (
                 <a className="" href="https://www.facebook.com/tymqro"><FBIcon/></a>        
                 <a className="ml-14" href="https://www.instagram.com/tymqro/"><IGIcon/></a>        
                 <a className="ml-14" href=""><WhatsAppIcon/></a>        
+                <a className="ml-14" href="https://www.youtube.com/c/TrigoyMielQuer%C3%A9tarooficial/streams"><YTIcon/></a>        
               </div>
             </li>
           </ul>
