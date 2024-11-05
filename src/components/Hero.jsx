@@ -41,8 +41,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Experience seamless business integrations and powerful insights with
-            our cutting-edge analytic tools.
+            Ven y se parte del avivamiento que estamos viviendo, cielos abiertos en Trigo y Miel.
           </h2>
         </motion.div>
         <motion.div
@@ -51,13 +50,12 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
-            <button
-              className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick={() => setIsModalOpen(true)}
-              aria-label="Get started"
-            >
-              Mas información
-            </button>
+            <a href="/#quienessomos"
+            className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+            >Conocenos</a>
+            <a href="/#acompañanos"
+            className="bghover-yellow w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+            >Contactanos</a>
           </div>
         </motion.div>
         <motion.div

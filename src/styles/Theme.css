@@ -30,6 +30,9 @@
 
 /* Buttons */
 
+.bghover-yellow {
+  @apply rounded-lg font-bold border  hover:text-primaryText flex justify-center items-center bg-primaryColor hover:border-white hover:bg-transparent text-black cursor-pointer transition;
+}
 .contained-button {
   @apply rounded-lg font-bold border hover:border-secondaryColor text-primaryText flex justify-center items-center hover:text-secondaryColor cursor-pointer transition;
 }
