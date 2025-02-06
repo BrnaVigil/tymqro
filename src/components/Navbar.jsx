@@ -8,11 +8,11 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Inicio", href: "/#home", ariaLabel: "Home" },
-  { label: "Quienes Somos", href: "/#quienessomos", ariaLabel: "QuienesSomos" },
+  { label: "¿Quienes Somos?", href: "/#quienessomos", ariaLabel: "QuienesSomos" },
+  { label: "Sucediendo", href: "/#acompañanos", ariaLabel: "Features2" },
+  { label: "Grupos Cafes", href: "/#pricing", ariaLabel: "Pricing" },
   { label: "Eventos", href: "/#eventos", ariaLabel: "Eventos" },
-  { label: "Pricing", href: "/#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
-  { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
+  { label: "Contacto", href: "/#contacto", ariaLabel: "FAQ" },
 ];
 
 export const Navbar = () => {
@@ -24,6 +24,7 @@ export const Navbar = () => {
       aria-label="Main navigation"
     >
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -42,6 +43,7 @@ export const Navbar = () => {
             </div>
           </a>
         </motion.div>
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -61,6 +63,7 @@ export const Navbar = () => {
             ))}
           </div>
         </motion.div>
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

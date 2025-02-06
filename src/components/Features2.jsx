@@ -17,21 +17,10 @@ export const Features2 = () => (
       transition={{ duration: 0.5, delay: 0.2 }}
     >
       <div className="items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
-          <span className="block-subtitle">Acompáñanos en alguna de nuestras reuniones:</span>
+          <span className="block-subtitle">Que esta sucediendo</span>
           <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-            Ven y experimenta el avivamiento.
+            Que esta sucediendo
           </h2>
-          <div className="text-xl text-center">
-            <p className="mb-10 text-secondaryText leading-loose">
-              Acompáñanos en alguna de nuestras reuniones:
-            </p>
-            <p className="mb-2 text-secondaryText leading-loose">
-              Domingos Horarios: 8:45 am, 10:45 am y 12:45 pm.
-            </p>
-            <p className="text-secondaryText leading-loose">
-              Viernes de sanidades y milagros: 8:00 pm.
-            </p>
-          </div>
       </div>
 
 
